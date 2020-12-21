@@ -1,1 +1,130 @@
 // Specific CSS for your home-page
+body {
+  h1 {
+    font-family: $my-font;
+  }
+  h2 {
+    font-family: $my-font;
+    margin: 0;
+  }
+}
+.profil-picture {
+  // width : 265px;
+  // height: 185px;
+  padding: 8px;
+  max-width: 100%;
+  max-height: 100%;
+  // border-radius: 8px;
+}
+
+html {
+  background-color: white;
+}
+
+.main-container {
+  background-color: white;
+}
+.block-top {
+  display: flex;
+  height: 30vh;
+  .block-top-left {
+    width: 45vw;
+    // flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    h1 {
+      font-size: 36px;
+      margin-right: 8px;
+    }
+  }
+  .block-top-center {
+    // flex-grow: 1;
+    width: 265px;
+    // width: 25vw;
+    background-color: $my-blue;
+  }
+  .block-top-right {
+    // flex-grow: 1;
+    width: 30vw;
+    background-color: $my-blue;
+  }
+}
+
+.block-middle {
+  display: flex;
+  // height: 30vh;
+  height: 185px;
+  // height: 201px;
+  .block-middle-left {
+    width: 45vw;
+    background-color: $my-green;
+    // opacity: 0.35;
+  }
+  .block-middle-center {
+    // width: 281px;
+    // width: 25vw;
+    width: 265px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(222,245,246);
+  }
+  .block-middle-right {
+    width: 30vw;
+    background-color: $my-blue;
+    flex-grow: 1;
+  }
+}
+
+.block-bottom {
+  height: 60vh;
+  display: flex;
+  .block-bottom-left {
+    width: 45vw;
+    background-color: $my-green;
+    // background-color: green;
+    // opacity: 0.35;
+    // flex-grow: 1;
+  }
+  .block-bottom-center {
+    // width: 25vw;
+    background-color: $my-green;
+    // opacity: 0.35;
+    width: 265px;
+    // max-width: 265px;
+    // min-width: 265px;
+  }
+  .block-bottom-right {
+    padding: 8px;
+    width: 30vw;
+    background-color: white;
+  }
+}
+
+.projects-title {
+  justify-content: flex-end;
+  align-items: center;
+  padding: 16px;
+  display: flex;
+  width: 63vw;
+  background-color: $my-blue;
+  position: absolute;
+  top: 112vh;
+  height: 10vh;
+}
+
+.projects {
+  display: flex;
+  margin-top: 90px;
+}
+.projects-block {
+
+  width: 63vw;
+}
+
+.green-background-projects {
+  background-color: $my-green;
+  width: 37vw;
+  height: 100vh;
+}
