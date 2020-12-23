@@ -1,0 +1,5 @@
+meta_product_name: "Hugo Le Morvan - Portfolio"
+meta_title: "Hugo Le Morvan - Portfolio"
+meta_description: "Have a look at my projects!"
+meta_image: "hl.png" # should exist in `app/assets/images/`
+# twitter_account: "@product_twitter_account"   # required for Twitter Cards
