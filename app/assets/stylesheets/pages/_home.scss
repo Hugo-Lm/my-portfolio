@@ -135,9 +135,10 @@ html {
   width: 92vw;
   display: flex;
   align-items: center;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  // box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  // border: 1px solid grey;
   padding: 42px;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
   justify-content: space-around;
 }
 
