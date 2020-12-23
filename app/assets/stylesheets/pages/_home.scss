@@ -7,6 +7,9 @@ body {
     font-family: $my-font;
     margin: 0;
   }
+  p {
+    font-family: $my-font;
+  }
 }
 .profil-picture {
   // width : 265px;
@@ -102,12 +105,15 @@ html {
   }
 }
 
+// ______________________________________________________________
+// PROJECTS PARTS
+
 .projects-title {
   justify-content: flex-end;
   align-items: center;
-  padding: 16px;
+  padding: 12px;
   display: flex;
-  width: 63vw;
+  width: 56vw;
   background-color: $my-blue;
   position: absolute;
   top: 112vh;
@@ -117,14 +123,117 @@ html {
 .projects {
   display: flex;
   margin-top: 90px;
+  justify-content: center;
 }
-.projects-block {
 
-  width: 63vw;
+.project-infos {
+  text-align: center;
+}
+
+.project-card {
+  height: auto;
+  width: 92vw;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 24px;
+  margin-bottom: 32px;
+  justify-content: space-around;
 }
 
 .green-background-projects {
   background-color: $my-green;
   width: 37vw;
   height: 100vh;
+}
+
+// ________________________________________________
+// CAROUSEL
+
+.caroussel-block {
+  width: 60%;
+  justify-content: center;
+  display: flex;
+}
+
+.carousel-portable {
+  width: 204px;
+  height: 432px;
+}
+
+.carousel-window {
+  width: 100%;
+  height: auto;
+}
+
+.prev-nav-portable {
+  left: -30px !important;
+}
+
+.next-nav-portable {
+  right: -30px !important;
+}
+
+.prev-nav-window {
+  left: -12% !important;
+}
+
+.next-nav-window {
+  right: -12% !important;
+}
+
+
+
+.nav-boutton {
+  color: grey;
+}
+
+.carousel-indicators {
+  bottom: -30px;
+  opacity: 0.4;
+  li {
+  background-color: black;
+  }
+}
+
+.carousel-indicators-window {
+  bottom: -40px !important;
+}
+
+// _____________________________________________________________
+// CONTACTS
+
+.contacts {
+  background-color: $my-green;
+  width: 70vw;
+  position: relative;
+  margin-top: 32px;
+  h2 {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: -18px;
+    background-color: $my-blue;
+    width: 56vw;
+    padding: 12px;
+  }
+}
+
+.infos-contacts {
+  height: 28vh;
+  padding-top: 8vh;
+  margin-left: 10vh;
+}
+
+.info-contact-line {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  p {
+    margin: 0;
+    padding-left: 16px;
+  }
+  i {
+    color: grey;
+  }
 }
