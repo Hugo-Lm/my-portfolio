@@ -49,7 +49,8 @@ html {
   }
   .block-top-right {
     // flex-grow: 1;
-    width: 30vw;
+    // width: 30vw;
+    flex-grow: 1;
     background-color: $my-blue;
   }
 }
@@ -74,7 +75,8 @@ html {
     background-color: rgb(222,245,246);
   }
   .block-middle-right {
-    width: 30vw;
+    // width: 30vw;
+    flex-grow: 1;
     background-color: $my-blue;
     // flex-grow: 1;
   }
